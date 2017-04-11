@@ -1,0 +1,48 @@
+.wrapper {
+    border-bottom: 7px solid #D1DBBD;
+    background-color: #193441
+}
+.logo {
+    height: 90px;
+    width: auto;
+    float: center;
+    padding-left: 50px;
+}
+/*---------------------MAIN NAV STYLING-----------------------*/
+.main-nav {
+    float: right;
+    list-style-type: none; 
+    padding-right:30px;
+    padding-top:10px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.main-nav li:not(:last-child):after {
+    content: " | ";
+    padding-left: .8em;
+    color:white
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 4px 0px;
+    color:white; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav {
+    float: right;
+    list-style-type: none;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase
+}
