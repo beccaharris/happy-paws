@@ -1,0 +1,43 @@
+.content-wrapper {
+    background-color: #EEEFF7
+}
+.container {
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*------------Column Styling-------------*/
+.col {
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.col-title {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.col-learn {
+    background-color: #193441
+}
+.col-adopt {
+    background-color:#91AA9D
+}
+.col-search {
+    background-color: #193441
+}
+p {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+
+/*------------Button Styling-------------*/
+.butt-learn {
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
