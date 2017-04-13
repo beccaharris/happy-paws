@@ -5,18 +5,20 @@
         <div class="col col-learn">
             <h1 class="col-title">Learn</h1>
             <p class="col-body">Pet adoption is a great option for future pet-owners. Click the button below to learn why!</p>
-            <button class="butt-learn" (click)="gotoLearn()">Learn More</button>
+            <button class="button-learn" (click)="gotoLearn()">Learn More</button>
         </div>
         <div class="col col-adopt">
             <h1 class="col-title">Adopt</h1>
             <p class="col-body">Check out some dogs and cats that are available for adoption. The pets shown come from different shelters in different areas.</p>
-            <button class="butt-adopt-dog" (click)="gotoDogs()">View Available Dogs</button>
-            <button class="butt-adopt-cat" (click)="gotoCats()">View Available Cats</button>
+            <span class="buttons">
+              <button class="button-adopt-dog" (click)="gotoDogs()">View Available Dogs</button>
+              <button class="button-adopt-cat" (click)="gotoCats()">View Available Cats</button>
+            </span>
         </div>
         <div class="col col-search">
             <h1 class="col-title">Search</h1>
             <p class="col-body">If you know exactly what you want, do a custom search for an adoptable dog or cat. Search by size, age, location, and more!</p>
-            <button class="butt-search" (click)="gotoPetFinder()">Find My Next Pet!</button>
+            <button class="button-pet-search" (click)="gotoPetFinder()">Find My Next Pet!</button>
         </div>
     </div>
   </div>

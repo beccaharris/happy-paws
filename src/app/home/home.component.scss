@@ -19,13 +19,13 @@
     font-weight: bold;
 }
 .col-learn {
-    background-color: #193441
+    background-color: #112d32
 }
 .col-adopt {
-    background-color:#91AA9D
+    background-color:#6e6658
 }
 .col-search {
-    background-color: #193441
+    background-color: #112d32
 }
 p {
   margin-top: 35px;
@@ -34,10 +34,33 @@ p {
 }
 
 /*------------Button Styling-------------*/
-.butt-learn {
-    border-radius: 4px;
+.button-learn {
+    font-family: "Lucida Sans";
+    border-radius: 8px;
     padding: 10px 10px;
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    width: 200px;
+}
+.button-adopt-dog {
+    font-family: "Lucida Sans";
+    border-radius: 8px;
+    padding: 3px 3px;
+    margin-bottom: 10px;
+    width: 200px
+}
+.button-adopt-cat {
+    font-family: "Lucida Sans";
+    border-radius: 8px;
+    padding: 3px 3px;
+    margin-bottom: 50px;
+    width: 200px
+}
+.button-pet-search {
+    font-family: "Lucida Sans";
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 200px;
 }

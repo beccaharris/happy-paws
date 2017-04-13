@@ -9,6 +9,10 @@ const appRoutes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  }, {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
   }
 ]
 
