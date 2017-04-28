@@ -1,8 +1,8 @@
 /* ----------- General Slide Styles ----------- */
 .carousel {
-    vertical-align: middle;
-    width: 80%;
-    margin-left: 10%;
+  vertical-align: middle;
+  width: 80%;
+  margin-left: 10%;
 }
 .slide-image {
   width: 100%;
@@ -11,24 +11,24 @@
 
 /* ----------- Slide 1 Styles ----------- */
 .slide-1-link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 .slide-1-caption {
-    position: absolute    !important;
-    text-align: left      !important;
-    padding-bottom: 0     !important;
-    bottom: 30%           !important;
-    margin-right: 55%     !important;
-    margin-left: 15%      !important;
+  position: absolute    !important;
+  text-align: left      !important;
+  padding-bottom: 0     !important;
+  bottom: 30%           !important;
+  margin-right: 50%     !important;
+  margin-left: 15%      !important;
 }
 .slide-1-header {
     color: #112d32 !important;
-    font-size: 90px;
+    font-size: 600%;
     font-family: "Lobster", cursive;
 }
 .slide-1-text {
     color: #112d32 !important;
-    font-size: 34px;
+    font-size: 3em;
     font-family: "Lobster", cursive;
     margin-top: 20px;
 }
@@ -48,12 +48,12 @@
 }
 .slide-2-header {
     color: #fff !important;
-    font-size: 90px;
+    font-size: 6em;
     font-family: "Lobster", cursive;
 }
 .slide-2-text {
     color: #fff !important;
-    font-size: 34px;
+    font-size: 3em;
     font-family: "Lobster", cursive;
     margin-top: 20px;
 }
@@ -68,17 +68,17 @@
     text-align: left      !important;
     padding-bottom: 0     !important;
     bottom: 40%           !important;
-    margin-right: 60%     !important;
+    margin-right: 57%     !important;
     margin-left: 9%       !important;
 }
 .slide-3-header {
     color: #112d32 !important;
-    font-size: 80px;
+    font-size: 4.5em;
     font-family: "Lobster", cursive;
 }
 .slide-3-text {
     color: #112d32 !important;
-    font-size: 26px;
+    font-size: 2em;
     font-family: "Lobster", cursive;
     margin-top: 20px;
 }
@@ -98,12 +98,12 @@
 }
 .slide-4-header {
     color: #fff !important;
-    font-size: 90px;
+    font-size: 6em;
     font-family: "Lobster", cursive;
 }
 .slide-4-text {
     color: #fff !important;
-    font-size: 30px;
+    font-size: 2em;
     font-family: "Lobster", cursive;
     margin-top: 20px;
 }
@@ -119,16 +119,60 @@
     padding-bottom: 0     !important;
     bottom: 40%           !important;
     margin-right: 50%     !important;
-    margin-left: 13%      !important;
+    margin-left: 11%      !important;
 }
 .slide-5-header {
     color: #112d32 !important;
-    font-size: 80px;
+    font-size: 5em;
     font-family: "Lobster", cursive;
 }
 .slide-5-text {
     color: #112d32 !important;
-    font-size: 30px;
+    font-size: 2.5em;
     font-family: "Lobster", cursive;
     margin-top: 20px;
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media screen and (min-width:320px) {
+  .slide-1-header {
+    font-size: 10px;
+  }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media screen and (min-width:481px) {
+  .slide-1-header {
+    font-size: 12px;
+  }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media screen and (min-width:641px) {
+  .slide-1-header {
+    font-size: 14px;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (min-width:961px) {
+  .slide-1-header {
+    font-size: 70px
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media screen and (min-width:1025px) {
+}
+
+/* hi-res laptops and desktops */
+@media screen and (min-width:1281px) {
+}
+
+/* hi-res + */
+@media screen and (min-width:1500px) {
+}
+
+/* hi-res ++ */
+@media screen and (min-width:1900px) {
 }
